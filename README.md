@@ -19,7 +19,7 @@ _This project takes information about the user from a series of questions that t
 
 ## Setup/Installation Requirements
 
-* _Clone this repository to your desktop from https://github.com/lcmpbll/Language-selector _
+* _Clone this repository to your desktop from https://github.com/lcmpbll/Language-selector_
 * _Navigate to the top level of the directory._
 * _Open index.html in your browser._
 * _easy-to-understand_
