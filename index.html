@@ -12,7 +12,9 @@
 		<h1>Fill out this questionnarie to find out what programming language you should start learning! </h1>
 	</div>
 	<div class="container">
-		<div id="formOne">
+		<form id="formOne">
+			<label for="name">Enter your name:</label>
+			<input id="name" class="form-control" type="text">
 			<ol>
 				<li>
 					<h2>What was your favorite subject in school?</h2>
@@ -41,9 +43,9 @@
 				<li>
 					<h2>What is your preferred foot-ware?</h2>
 					<select class="form-control" id="footware">
-						<option>Socks and sandals</option>
-						<option>Shoes no socks</option>
-						<option>Barefoot</option>
+						<option value="300">Socks and sandals</option>
+						<option value="0" >Shoes no socks</option>
+						<option value="0">Barefoot</option>
 					</select>
 				</li>
 				<li>
@@ -56,12 +58,12 @@
 				</li>
 			</ol>
 			<button type="submit" class="btn">Submit</button>
-		</div>
+		</form>
 		<div class="contianer">
 			<div class="language">
-				<h3>Congratulations, your first language should be <span class="answer"> </span>!</h3>
+				<h3>Congratulations <span id="your-name"></span>, your first language should be <span class="answer"> </span>!</h3>
 				<p>Feel free to try again for a new selection! Or check out <span class="answer"> </span> or other languages in the links below:</p>
-				<div clas="row">
+				<div class="row">
 					<ul>
 						<li><a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)">React</a></li>
 						<li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
