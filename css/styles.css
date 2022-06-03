@@ -2,7 +2,7 @@
 	display: none;
 }
 
-.headder{
+.header{
 	margin: 20px;
 	border: 10px solid black;
 	padding: 10px;
@@ -20,6 +20,10 @@ li {
 
 .language li {
 	display: inline;
+}
+
+a{
+	cursor:pointer;
 }
 
 
