@@ -22,8 +22,7 @@ _This project takes information about the user from a series of questions that t
 * _Clone this repository to your desktop from https://github.com/lcmpbll/Language-selector_
 * _Navigate to the top level of the directory._
 * _Open index.html in your browser._
-* _easy-to-understand_
-* _format_
+
 
 
 ## Known Bugs
@@ -35,4 +34,4 @@ _This project takes information about the user from a series of questions that t
 
 _Feel free to reach out on [github](https://github.com/lcmpbll) if you have any issues, questions or concerns._
 
-[Copyright](LICENSE) (c) _05/27/22_ _Liam Campbell_
+[Copyright](LICENSE) (c) _06/03/22_ _Liam Campbell_
