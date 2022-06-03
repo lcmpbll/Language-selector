@@ -17,6 +17,7 @@ $(document).ready(function() {
 			$(".hidden-java").show();
 		} else {
 			$(".hidden-react").show();
+	
 		}
 
 		$(".showing").hide()
