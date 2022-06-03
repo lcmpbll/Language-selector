@@ -27,8 +27,8 @@ _This project takes information about the user from a series of questions that t
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known issues._
+
 
 ## License
 
