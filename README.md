@@ -4,7 +4,7 @@
 
 #### _An application to help select which programming language to learn first._
 
-![An image of a person sitting infront of a computer](img/lang.jpeg)
+![An image of a person sitting in front of a computer](img/lang.jpeg)
 
 ## Technologies Used
 

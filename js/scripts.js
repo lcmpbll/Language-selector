@@ -12,14 +12,15 @@ $(document).ready(function() {
 		
 
 		if (result > 8) {
-			$(".hidden-c").show();
+			$("#answer").text("C #");
 		} else if (result > 5) {
-			$(".hidden-java").show();
+			$("#answer").text("JavaScript");
 		} else {
-			$(".hidden-react").show();
+			$("#answer").text("React");
 	
 		}
-
+		
+		$(".language").show()
 		$(".showing").hide()
 		
   });
