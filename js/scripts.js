@@ -8,7 +8,9 @@ $(document).ready(function() {
     const subjectVal = parseInt($("#subject").val());
 		const animalVal = parseInt($("#animal").val());
 		const foodVal = parseInt($("#food").val());
-		const result = add(subjectVal, animalVal, foodVal)
+		const result = add(subjectVal, animalVal, foodVal);
+		
+
 		if (result > 8) {
 			$(".hidden-c").show();
 		} else if (result > 5) {
@@ -16,6 +18,8 @@ $(document).ready(function() {
 		} else {
 			$(".hidden-react").show();
 		}
-		$(".showing").hide();
+
+		$(".showing").hide()
+		
   });
 });
