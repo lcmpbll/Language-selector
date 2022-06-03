@@ -12,12 +12,11 @@ $(document).ready(function() {
 		
 
 		if (result > 8) {
-			$("#answer").text("C #");
+			$(".answer").text("C #");
 		} else if (result > 5) {
-			$("#answer").text("JavaScript");
+			$(".answer").text("JavaScript");
 		} else {
-			$("#answer").text("React");
-	
+			$(".answer").text("React");
 		}
 		
 		$(".language").show()
