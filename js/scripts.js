@@ -8,10 +8,15 @@ $(document).ready(function() {
     const subjectVal = parseInt($("#subject").val());
 		const animalVal = parseInt($("#animal").val());
 		const foodVal = parseInt($("#animal").val());
-		
-		$(".hidden-c").show();
-		$(".hidden-java").show();
-		$(".hidden-react").show();
+		const result = add(subjectVal, animalVal, foodVal)
+
+		if (result >= 8) {
+			$(".hidden-c").show();
+		} else if (result <= 5) {
+			$(".hidden-java").show();
+		} else {
+			$(".hidden-java").show();
+		}
 		$(".showing").hide();
   });
 });
