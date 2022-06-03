@@ -1,0 +1,16 @@
+.hidden-c{
+	display: none;
+}
+.hidden-java{
+	display: none;
+}
+.hidden-react{
+	display: none;
+}
+.headder{
+	margin: 20px;
+	border: 10px solid black;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
