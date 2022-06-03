@@ -4,7 +4,7 @@ function add(subjectVal, animalVal, foodVal) {
 
 $(document).ready(function() {
   $(".btn").click(function(event) {
-		event.preventDefault()
+		event.preventDefault();
 
 		const coderName = $("input#name").val();
 			$("#your-name").text(coderName);
@@ -23,8 +23,8 @@ $(document).ready(function() {
 			$(".answer").text("React");
 		}
 		
-		$(".language").show()
-		$(".showing").hide()
+		$(".language").show();
+		$(".showing").hide();
 		
   });
 });
