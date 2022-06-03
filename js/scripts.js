@@ -15,7 +15,7 @@ $(document).ready(function() {
 		} else if (result <= 5) {
 			$(".hidden-java").show();
 		} else {
-			$(".hidden-java").show();
+			$(".hidden-react").show();
 		}
 		$(".showing").hide();
   });
